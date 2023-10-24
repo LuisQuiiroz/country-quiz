@@ -88,7 +88,7 @@ function App () {
           <h1 className='uppercase text-white-1 text-2xl md:text-4xl font-bold pb-3'>Country Quiz</h1>
           {
             currentQuestion !== questions?.length && (
-              <img className='absolute top-0 right-0 w-1/3' src='src/assets/undraw_adventure_4hum 1.svg' alt='undraw_adventure_image' />
+              <img className='absolute top-0 right-0 w-1/3' src='/undraw_adventure_4hum_1.svg' alt='undraw_adventure_image' />
             )
           }
         </div>
@@ -126,7 +126,7 @@ function App () {
           {
           currentQuestion === questions?.length && (
             <div className='text-center'>
-              <img className='w-full' src='src/assets/undraw_winners_ao2o 2.svg' alt='winner image' />
+              <img className='w-full' src='/undraw_winners_ao2o_2.svg' alt='winner image' />
               <h4 className='text-blue-2 text-5xl font-bold mt-16 mb-4'>Results</h4>
               <p className='text-blue-2 text-lg font-bold'>You got <span className='text-green-2 text-4xl font-bold'>{score}</span> correct answers</p>
               <button className='mt-10 px-16 py-5 border-2 border-blue-2 text-blue-2 text-lg font-semibold rounded-xl' onClick={reset}>Try again</button>
