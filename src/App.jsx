@@ -98,7 +98,7 @@ function App () {
               <form>
                 {
                   questions[currentQuestion]?.flag.img && (
-                    <img className='w-1/4 pb-7' src={questions[currentQuestion]?.flag.img} alt={questions[currentQuestion]?.flag.alt} />
+                    <img className='w-1/2 md:w-1/3 pb-7' src={questions[currentQuestion]?.flag.img} alt={questions[currentQuestion]?.flag.alt} />
                   )
                 }
                 <h2 className='text-blue-1 text-2xl font-bold pb-8'>{questions[currentQuestion].question}</h2>

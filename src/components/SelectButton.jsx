@@ -14,7 +14,7 @@ export function SelectButton ({ option, answer, userAnswer, inciso }) {
   }
 
   const buttonStyles = `
-    flex flex-row items-center text-left gap-12 rounded-xl px-5 py-3 mb-7 border-2 w-full group border-blue-70 
+    flex flex-row items-center text-left gap-6 md:gap-12 rounded-xl px-5 py-3 mb-7 border-2 w-full group border-blue-70 
     ${isAnswer && correctStyles}
     ${!isAnswer && isSelected && incorrectStyles}
     ${!isAnswered && defaultStyles}
